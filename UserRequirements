@@ -1,0 +1,23 @@
+The purpose of this software is to provide a tracking system for PCs, laptops, switches, hubs, routers, servers, smartphones and tablets (all will be referred to as workstations) that are a part of a network. The specifications vary based on the type of workstation. The location and specs of each workstation will be stored in a database. The software will allow repair tickets to be generated for each workstation and the repair tickets will be given a time for completion. The database will keep track of all in progress and completed repair tickets. The software will also generate reporting information. The reporting information will show a history of parts for workstations, projected repairs for parts, and the yearly cost of repairs. Administrators of the software will be able to create software users with varying amount of permissions. The software will be able to perform backups of the database as well.
+
+User Requirements:
+Agents: Technician, Administrator, Report Viewer
+
+Technician Requirements:
+The technician needs to enter part information.
+The technician needs to enter hardware specifications for workstations.
+The technician needs to generate repair tickets for workstations.
+The technician needs to see the part history for workstations.
+The technician needs to see the projected repairs for workstations.
+
+Report Viewer Requirements:
+
+The report viewer needs to see the yearly cost of maintaining workstations.
+The report viewer needs to see the amount of yearly repairs.
+
+Administrator Requirements:
+The administrator needs the abilities of the technician and report viewer.
+The administrator needs to delete workstations from the database.
+The administrator needs to add location information for workstations.
+The administrator needs to create users with varying permissions.
+The administrator needs to set up backup routines for the database.
